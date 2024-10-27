@@ -23,10 +23,16 @@
             height: 100vh;
             margin: 0;
             font-family: 'Jura', sans-serif;
+            text-align: center;
         }
         img {
             width: 200px;
             height: auto;
+        }
+        h1 {
+            font-size: clamp(24px, 6vw, 48px); /* Adjusts size dynamically with a max of 48px */
+            max-width: 90%; /* Limits width to prevent overflow on very narrow screens */
+            margin: 0.5em 0;
         }
     </style>
 </head>
